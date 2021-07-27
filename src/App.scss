@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;   
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        span {
+            color: red;
+        }
+    }
+
+    input {
+        width: 500px;
+        height: 40px;
+        border-radius: 8px;
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #807b91;
+        outline: none;
+        font-size: 20px;
+    }
+
+    button {
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 50px;
+        background: #365df0;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+
